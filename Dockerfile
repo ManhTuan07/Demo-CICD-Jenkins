@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-alpine
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/Demo-CICD-Jenkins-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/hello-world-rest-api.jar
 
 # cd /opt/app
 WORKDIR /opt/app
